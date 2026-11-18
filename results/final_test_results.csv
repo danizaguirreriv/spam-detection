@@ -1,0 +1,5 @@
+dataset,model,test_size,accuracy,precision,recall,f1,auc,true_ham_ok,false_pos,false_neg,true_spam_ok
+SMS,Naive Bayes,1035,0.9729,0.9905,0.7939,0.8814,0.9895,903,1,27,104
+SMS,SVM,1035,0.9855,0.9754,0.9084,0.9407,0.9985,901,3,12,119
+Enron,Naive Bayes,6028,0.9822,0.9878,0.9753,0.9815,0.9985,3083,35,72,2838
+Enron,SVM,6028,0.9877,0.983,0.9918,0.9873,0.9992,3068,50,24,2886

@@ -1,0 +1,5 @@
+train_on,test_on,model,accuracy,precision,recall,f1,auc,actual_spam_share,predicted_spam_share,false_pos,false_neg,words_known
+SMS,Enron,Naive Bayes,0.552,0.853,0.086,0.156,0.536,0.483,0.048,172,10640,0.652
+SMS,Enron,SVM,0.534,0.527,0.334,0.409,0.519,0.483,0.306,3481,7752,0.652
+Enron,SMS,Naive Bayes,0.401,0.153,0.828,0.259,0.674,0.126,0.682,2387,90,0.937
+Enron,SMS,SVM,0.26,0.142,0.964,0.247,0.72,0.126,0.857,3041,19,0.937
